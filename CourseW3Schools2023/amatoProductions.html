@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Producción Integral de Programas de Tv Documentales Fotografia de Eventos, Publicitaria y Videos Aereo, Videos Institucionales y Turisticos" />
+    <title>Amato&Productions</title>
+    <link rel="stylesheet" href="amatoProductions.css" />
+</head>
+
+<body>
+    <header>
+        <img id="logo1" src="amatoProductions.jpg">
+        <img id="logo2" src="videoPhoto.jpg">
+
+    </header>
+    <div class="conav">
+        <nav>Producción Integral de Programas de Tv - Documentales - Fotografia de Eventos - Fotografia Publicitaria - Fotografia y Videos Aereo - Videos Institucionales - Videos Turisticos / Contacto 03544 - 15416330 - amatovideo@amatoproducciones.com</nav>
+    </div>
+    <ul>
+        <li><a href="#customer-info">Presupuesto Eventos</a></li>
+        <li><a href="">Consulta Evento(Grabado/Fotografiado) </a></li>
+        <li><a href="">Contactatanos</a></li>
+    </ul>
+    <main>
+        <!-- <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz"> -->
+        <img id="fondo1" src="novia.jpg">
+        <form method="post" action="">
+            <section role="region" aria-labelledby="customer-info">
+                <h2 id="customer-info">Presupuesto Eventos(nuevos).</h2>
+                <div class="info">
+                    <label for="customer-name">Cliente:</label>
+                    <input type="text" name="customer-name" id="customer-name" placeholder="Escriba su Nombre Completo" />
+                </div>
+                <div class="info">
+                    <label for="Correo Cliente">Correo:</label>
+                    <input type="email" name="customer-email" id="customer-email" placeholder="escriba su correo electronico" />
+                </div>
+                <div class="info">
+                    <label for="event-date"><span class="sr-only">Fecha:</span></label>
+                    <input type="date" name="event-date" id="event-date" placeholder="selecciona la fecha de su evento" required />
+                </div>
+
+                <div class="info">
+                    <label for="customer">Evento:</label>
+
+                    <select name="customer" id="customer" required>
+                        <option value="">Selecciona su Evento</option>
+                        <option value="tv">Producción Integral de Programas de Tv</option>
+                        <option value="doc">Documental</option>
+                        <option value="phev">Fotografia de Eventos</option>
+                        <option value="phpu">Fotografia Publicitaria</option>
+                        <option value="phva">Fotografia y Videos Aereo</option>
+                        <option value="vi">Videos Institucionales</option>
+                        <option value="">Videos Turisticos</option>
+                    </select>
+                </div>
+                <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>

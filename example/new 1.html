@@ -1,0 +1,17 @@
+<Html>
+	<script>
+	  var y=0;
+	  var y1=0;
+	  var x = new Array();
+	  var operacion=0;
+	 	 
+	  x[1] = prompt("Introduzca valor x:");
+	  y1 = prompt("Introduzca valor y:");
+	  
+	  for (y=1; y<=parseInt(y1);y++) { 
+	  document.write(x[y]);
+	  operacion=x[y]*(y+1);
+	  x[y+1] = operacion;
+	  }
+	</script>
+</Html>

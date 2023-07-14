@@ -1,0 +1,40 @@
+body {
+    background-color: chartreuse;
+    color: black;
+}
+
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: deeppink;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkorange;
+}
+
+a:active {
+    text-decoration: none;
+    color: blue;
+}
+
+:focus {
+    border: 5px solid #385d8a;
+}
